@@ -7,6 +7,8 @@ import 'package:handyman_provider_flutter/locale/language_fr.dart';
 import 'package:handyman_provider_flutter/locale/language_hi.dart';
 import 'package:nb_utils/nb_utils.dart';
 
+import 'language_br.dart';
+
 class AppLocalizations extends LocalizationsDelegate<Languages> {
   const AppLocalizations();
 
@@ -23,6 +25,8 @@ class AppLocalizations extends LocalizationsDelegate<Languages> {
         return LanguageDe();
       case 'fr':
         return LanguageFr();
+      case 'pt':
+        return LanguageBr();
       default:
         return LanguageEn();
     }
