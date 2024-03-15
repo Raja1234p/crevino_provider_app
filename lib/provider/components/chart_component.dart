@@ -22,7 +22,7 @@ class ChartComponent extends StatelessWidget {
           orientation: LegendItemOrientation.auto,
           position: LegendPosition.top,
           legendItemBuilder: (legendText, series, point, seriesIndex) {
-            return Text('Monthly $legendText in ${appStore.currencySymbol}', style: boldTextStyle()).paddingBottom(8);
+            return Text('$legendText mensal in ${appStore.currencySymbol}', style: boldTextStyle()).paddingBottom(8);
           },
         ),
         margin: EdgeInsets.fromLTRB(16, 4, 16, 16),
