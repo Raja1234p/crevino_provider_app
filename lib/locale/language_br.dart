@@ -1635,4 +1635,6 @@ class LanguageBr extends Languages {
   @override
   String get pleaseContactYourAdmin => 'Por favor, entre em contato com o seu administrador!';
 
+  String get addNewAddress => 'Adicionar novo endereço';
+
 }

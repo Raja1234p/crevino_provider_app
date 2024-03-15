@@ -6,6 +6,8 @@ import 'package:handyman_provider_flutter/utils/configs.dart';
 import 'package:handyman_provider_flutter/utils/images.dart';
 import 'package:nb_utils/nb_utils.dart';
 
+import '../../utils/constant.dart';
+
 class CommissionComponent extends StatelessWidget {
   final Commission commission;
 
@@ -40,7 +42,7 @@ class CommissionComponent extends StatelessWidget {
                   TextSpan(
                     text: isCommissionTypePercent(commission.type)
                         ? '${commission.commission.validate()}%'
-                        : '${isCurrencyPositionLeft ? appStore.currencySymbol : ""}${commission.commission.validate()}${isCurrencyPositionRight ? appStore.currencySymbol : ""}',
+                        : '${isCurrencyPositionLeft ? appStore.currencySymbol : ""}${commission.commission.validate().toStringAsFixed(DECIMAL_POINT).formatNumberWithComma()}${isCurrencyPositionRight ? appStore.currencySymbol : ""}',
                     style: boldTextStyle(size: 12),
                   ),
                   if (isCommissionTypePercent(commission.type)) TextSpan(text: ' (${languages.lblFixed})', style: secondaryTextStyle(size: 12)),

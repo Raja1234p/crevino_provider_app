@@ -1629,4 +1629,6 @@ class LanguageDe extends Languages {
 
   @override
   String get pleaseContactYourAdmin => 'Bitte kontaktieren Sie Ihren Administrator!';
+
+  String get addNewAddress => 'Add New Addresses';
 }

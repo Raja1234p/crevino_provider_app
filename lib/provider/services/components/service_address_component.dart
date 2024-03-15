@@ -138,7 +138,7 @@ class _ServiceAddressComponentState extends State<ServiceAddressComponent> {
                 }
               });
             },
-            child: Text('Add New Addresses', style: secondaryTextStyle()),
+            child: Text(languages.addNewAddress, style: secondaryTextStyle()),
           ),
         ),
       ],

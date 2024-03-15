@@ -1631,4 +1631,6 @@ class LanguageEn extends Languages {
 
   @override
   String get pleaseContactYourAdmin => 'Please contact your administrator!';
+
+  String get addNewAddress => 'Add New Addresses';
 }

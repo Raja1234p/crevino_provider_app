@@ -1630,4 +1630,6 @@ class LanguageHi extends Languages {
 
   @override
   String get pleaseContactYourAdmin => 'कृपया अपने व्यवस्थापक से संपर्क करें!';
+
+  String get addNewAddress => 'Add New Addresses';
 }

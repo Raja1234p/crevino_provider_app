@@ -1629,4 +1629,8 @@ class LanguageAr extends Languages {
 
   @override
   String get pleaseContactYourAdmin => 'يرجى الاتصال بمسؤولك!';
+
+  @override
+  // TODO: implement addNewAddress
+  String get addNewAddress => 'Add New Addresses';
 }

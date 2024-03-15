@@ -1088,4 +1088,6 @@ abstract class Languages {
   String get copied;
 
   String get pleaseContactYourAdmin;
+
+  String get addNewAddress;
 }

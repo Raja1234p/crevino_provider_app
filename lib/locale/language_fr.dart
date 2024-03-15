@@ -1630,4 +1630,6 @@ class LanguageFr extends Languages {
 
   @override
   String get pleaseContactYourAdmin => 'Veuillez contacter votre administrateur!';
+
+  String get addNewAddress => 'Add New Addresses';
 }
