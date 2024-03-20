@@ -254,7 +254,7 @@ class _HandymanProfileFragmentState extends State<HandymanProfileFragment> {
                 ),
               ),
               SettingSection(
-                title: Text(languages.lblDangerZone.toUpperCase(), style: boldTextStyle(color: redColor)),
+                // title: Text(languages.lblDangerZone.toUpperCase(), style: boldTextStyle(color: redColor)),
                 headingDecoration: BoxDecoration(color: redColor.withOpacity(0.08)),
                 divider: Offstage(),
                 items: [
